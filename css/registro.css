@@ -1,0 +1,19 @@
+:root {
+  --color1: #666666;
+}
+body{
+  font-weight: 300;
+}
+
+.bg-claro {
+  background-color: var(--color1) !important;
+}
+.form-control, .btn {
+  min-height: 3.125rem;
+  line-height: initial;
+}
+.img-1 {
+  background-image: url(../images/agregar-usuario.jpg);
+  background-size: cover;
+  background-position: center;
+}
